@@ -79,7 +79,7 @@ def tableau_to_image (B,original) :
     show()    
     return res
 
-
+# Changer le chemin (notamment pour une carte de densité différente)
 original=imread("Code\Density_map\Kano_density.png")
 table = image_to_tableau(original)
 
