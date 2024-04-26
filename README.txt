@@ -43,6 +43,6 @@ graph_essaim(Nb: int, iterations : int, lost_era, alone_era, social_era)
 > Réalise l'algorithme d'essaim et affiche le graphe correspondant
 > Retourne les mêmes paramètres que algorithme_essaim
 
-def multi_algorithme_essaim(Nb: int, splits: int, iterations : int, lost_era, alone_era, social_era)
+multi_algorithme_essaim(Nb: int, splits: int, iterations : int, lost_era, alone_era, social_era)
 > Réalise l'algorithme d'essaim avec un nombre splits de sélection
 > Retourne les mêmes paramètres que algorithme_essaim, et la liste des rayons de couverture des biodigesteurs
