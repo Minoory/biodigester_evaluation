@@ -31,3 +31,18 @@ algorithm.py
 
 main.ipynb
 > Tout est modifiable, un programme est déjà indiqué pour afficher les résultats de l'algorithme
+> Il suffit de relancer les différentes cellules pour générer une nouvelle population
+
+############################# Fonctions importantes ################################
+algorithme_essaim(Nb: int, iterations : int, lost_era, alone_era, social_era)
+> Applique l'algorithme d'optimisation pour un nombre iterations d'itérations sur une population de Nb biodigesteur positionnés initialement aléatoirement
+> Les itérations correspondantes aux changements d'ère sont à indiquer pour chaque paramètre idoine
+> Retourne les biodigesteurs, les trajets empruntés par les tracteurs, les fermes et l'évolution de la pénalité dans le temps
+
+graph_essaim(Nb: int, iterations : int, lost_era, alone_era, social_era)
+> Réalise l'algorithme d'essaim et affiche le graphe correspondant
+> Retourne les mêmes paramètres que algorithme_essaim
+
+def multi_algorithme_essaim(Nb: int, splits: int, iterations : int, lost_era, alone_era, social_era)
+> Réalise l'algorithme d'essaim avec un nombre splits de sélection
+> Retourne les mêmes paramètres que algorithme_essaim, et la liste des rayons de couverture des biodigesteurs
